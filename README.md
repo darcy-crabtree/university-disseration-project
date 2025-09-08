@@ -1,5 +1,5 @@
 # University Dissertation Project: Robotic Design with Sentiment
-Please note this work was submitted academically and will only be a demonstration of what was submitted. This repository summarised both report work and product submitted.
+Please note this work was submitted academically and will only be a summary of both report and product that was submitted.
 
 ## Aim
 The aim is to develop a chatbot application that uses machine learning to classify emotions 
@@ -12,43 +12,9 @@ The key objectives of this project are as follows:
 2. Include “facial” expressions 
 3. Initiate conversation with user and respond appropriately.
 
-## Process Description
-Applying the Incremental Model, directly to developing the chatbot. The first stage consisted of listing the product’s 
-requirements as a whole, this allowed for an overview of what the product would look like once 
-it was complete. Once this had been completed, functionalities such as window development, 
-which did not depend on preexisting structures, were applied first. Each segment would be tried 
-and tested before being applied to the main code file.  This would serve as a basis for the rest of 
-the product, working on the main window, to the start frame. The start frame could be split into 
-2 sections: The” Rice ball” section and “Chatroom” section. Each section had its own functions 
-therefore each was developed separately, developing the emotion recognition in the “Rice ball” 
-section and then progressing to completing the general conversation section in the “Chat room” 
-segment.
-
-It was advantageous to conduct development in this way as not only were each individual 
-functionalities implemented and tested before being applied to the main product, the stress of 
-completing several functions at once was reduced, allowing for ease during development. 
-However, the Incremental Model could pose problems during the development as each function 
-is created separately, so when functionalities are applied to the main product, there could be 
-conflicting code, with one function interfering with the execution of another. This could be fixed 
-through testing code after each implementation to ensure all code operates cohesively.
-
-## Technology Stack
-The technology stack that was planned to be used consisted of Tkinter, ChatterBot and Python. 
-Tkinter would act as the foundation of the application, providing the window and frames used to 
-move between different pages. This was chosen due to its popularity in the Python community 
-for being a powerful yet simple user interface development tool. ChatterBot would provide the 
-core functionality to the app, allowing users to communicate with Japonica. This was essential 
-as it provided the basic fundamental capabilities required of a chatbot. Python would be the 
-development language, chosen for being easy to learn with a large library of developmental 
-tools at its disposal.
-
-Although, initially it was planned to incorporate ChatterBot into the product, this was 
-unsuccessfully implemented for a couple of reasons. ChatterBot, was no longer maintained, 
-which would require an older version of Python to be used, posing compatibility issues with new 
-libraries. Additionally, this poses the risk of bugs and lack of support, which could hinder and 
-prolong development. Lastly, ChatterBot was excluded because it contained the main 
-functionality of the product, which required direct development. This led to ChatterBot being 
-replaced with Tkinter.
+## Methodology
+- Incremental Model
+- Focuses on implementation and testing of individual features
 
 ## Core Requirements
 **1.0 Root/Window** 
@@ -114,5 +80,74 @@ application for the user.
 The initial idea was to have a facial reaction on one half of the application and a chat function 
 on the other half.
 
+Initial Design 1:
+
 ![Initial Design 1](Initial-Design-1.png)
 
+Initial Design 2:
+
+![Initial Design 2](Initial-Design-2.png)
+
+## Final Design 
+**Main Menu** 
+The main menu consists of a title dictating the page is the “Main Menu”, start and instruction 
+buttons, and a menu bar with Main, Instructions and Exit.
+
+![Main Menu](Main-Menu.png)
+
+**Instructions**
+
+When the Instructions button is clicked, a information box pops up explaining how the 
+application works. The text reads ”Japonica is the smart chatbot you can talk to all day! With 
+real-time reactions and responses. Once started, type in the designated box, click send and 
+wait for your response!” 
+
+![Instructions](Instructions.png)
+
+**Disclaimer**
+
+When the Start button is clicked, a disclaimer appears before moving onto the Start Frame. The 
+disclaimer states “Disclaimer! Any interaction with Japonica is of your own discretion. Japonica 
+accepts no blame for actions taken based on responses given. This bot is not a replacement for 
+social interaction.” 
+
+![Disclaimer](Disclaimer.png)
+
+**Start Interface**
+
+Once the user has exited the disclaimer, the application proceeds to the Start Interface. This 
+consists of a “Rice ball” section which displays Japonica’s face and a “Chat room” section 
+inclusive of a chat log that states “Type something to get started”, a scroll bar, a user input box 
+and a send button.
+
+![Start Interface](Start-Interface.png)
+
+## Japonica Facial Expressions
+
+Below are the different designs representing the various facial expressions that Japonica can 
+convey based on emotion recognition conducted. 
+
+![Japonica Facial Expressions](Japonica-Facial-Expressions.png)
+
+## Flow Diagram
+
+![Flow Diagram](Flow-Diagram.png)
+
+## Wireframe Diagram
+
+![Main Menu Wireframe Diagram](Main-Menu-Wireframe-Diagram.png)
+
+![Start Frame Wireframe Diagram](Start-Frame-Wireframe-Diagram.png)
+
+## Databases
+
+## Technology Stack
+- Python: Language
+- Tkinter: Window creation
+- Scikit-Learn: Process datasets
+- Pillow: Transform images
+- Torch: Mathematical operations
+- Joblib: Save pretrained classifications
+
+## Testing
+- Black box: Functional testing
