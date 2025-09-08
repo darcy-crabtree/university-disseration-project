@@ -114,4 +114,5 @@ application for the user.
 The initial idea was to have a facial reaction on one half of the application and a chat function 
 on the other half.
 
-![Design](Initial-Design-1.png)
+![Initial Design 1](Initial-Design-1.png)
+
