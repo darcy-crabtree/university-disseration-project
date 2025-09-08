@@ -88,14 +88,18 @@ Initial Design 2:
 
 ![Initial Design 2](Initial-Design-2.png)
 
-## Final Design 
-**Main Menu** 
+## Final Design
+
+### Main Menu
+
 The main menu consists of a title dictating the page is the “Main Menu”, start and instruction 
 buttons, and a menu bar with Main, Instructions and Exit.
 
 ![Main Menu](Main-Menu.png)
 
-**Instructions**
+---
+
+### Instructions
 
 When the Instructions button is clicked, a information box pops up explaining how the 
 application works. The text reads ”Japonica is the smart chatbot you can talk to all day! With 
@@ -104,7 +108,9 @@ wait for your response!”
 
 ![Instructions](Instructions.png)
 
-**Disclaimer**
+---
+
+### Disclaimer
 
 When the Start button is clicked, a disclaimer appears before moving onto the Start Frame. The 
 disclaimer states “Disclaimer! Any interaction with Japonica is of your own discretion. Japonica 
@@ -113,7 +119,9 @@ social interaction.”
 
 ![Disclaimer](Disclaimer.png)
 
-**Start Interface**
+---
+
+### Start Interface
 
 Once the user has exited the disclaimer, the application proceeds to the Start Interface. This 
 consists of a “Rice ball” section which displays Japonica’s face and a “Chat room” section 
@@ -121,6 +129,8 @@ inclusive of a chat log that states “Type something to get started”, a scrol
 and a send button.
 
 ![Start Interface](Start-Interface.png)
+
+---
 
 ## Japonica Facial Expressions
 
