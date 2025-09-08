@@ -149,8 +149,6 @@ convey based on emotion recognition conducted.
 
 ![Start Frame Wireframe Diagram](Start-Frame-Wireframe-Diagram.png)
 
-## Databases
-
 ## Technology Stack
 - Python: Language
 - Tkinter: Window creation
