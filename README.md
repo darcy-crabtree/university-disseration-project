@@ -1,5 +1,6 @@
 # University Dissertation Project: Robotic Design with Sentiment
 Please note this work was submitted academically and will only be a summary of both report and product that was submitted.
+Completed 27/04/2025
 
 ## Aim
 The aim is to develop a chatbot application that uses machine learning to classify emotions 
