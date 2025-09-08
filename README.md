@@ -109,8 +109,9 @@ application for the user.
 - 3.2.1 – Return key can be used as an alternative to the send button 
 - 3.2.2 - Prevents users from typing in the chat log 
 
-##Initial Design
+## Initial Design
+
 The initial idea was to have a facial reaction on one half of the application and a chat function 
 on the other half.
 
-![Alt text](images/Initial Design 1.png)
+![Design](Initial-Design-1.png)
