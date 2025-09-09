@@ -162,4 +162,4 @@ convey based on emotion recognition conducted.
 - Black box: Functional testing
 
 ## Product Demonstration
-[![Product Demonstration](Main-Menu.png)](Dissertation-Product-Demonstration.mp4)
+[Product Demonstration](Dissertation-Product-Demonstration.mp4)
