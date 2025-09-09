@@ -160,6 +160,3 @@ convey based on emotion recognition conducted.
 
 ## Testing
 - Black box: Functional testing
-
-## Product Demonstration
-[Product Demonstration](Dissertation-Product-Demonstration.mp4)
